@@ -4,6 +4,8 @@
   "description": "boilerplate for react redux node sql",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -w ",
+    "start":"node ./server/index.js",
     "test": "test"
   },
   "author": "DAS",
@@ -11,6 +13,16 @@
   "dependencies": {
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
-    "morgan": "^1.8.1"
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
   }
 }
